@@ -43,6 +43,7 @@ CONTAINER ID        IMAGE                                 COMMAND               
 Use the management interface with your web browser to setup RabbitMQ for your environment.
 
 If the server container is running, you should be able to reach the RabbitMQ management interface in your web browser on localhost as follows: [http://localhost:15672/]().
+The initial password for the 'admin' user is 'nimda'. 
 > Note, however, that if you are using **docker-machine** instead of running docker natively, you will need to know the ip address of the running machine vm (instead of localhost). Most people run a docker-machine named 'default', and can therefore get the IP as follows:
 >  ```docker-machine ip default```
 > On my computer, this resolved to 192.168.99.100, which means I would access the RabbitMQ management interface with the following address: [http://192.168.99.100:15672/]()
